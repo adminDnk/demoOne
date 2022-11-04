@@ -1,4 +1,6 @@
-##### 初次使用Git测试
+# app_jpegviewer
+
+JPG file viewer from SD card or pendrive
 
 
 
