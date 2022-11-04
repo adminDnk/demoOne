@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=Z3C6R-KDIHR-35QTX-HTGFR-1DVAV-WDK1T
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+D:\MDK5\gongcheng\温湿度显示4\USER\OLED.uvproj
+Project File Date:  06/14/2021
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+compiling main.c...
+..\HARDWARE\OLED\oled.h(18): warning:  #1295-D: Deprecated declaration IIC_Start - give arg types
+  void IIC_Start();   //模拟IIC起始信号
+..\HARDWARE\OLED\oled.h(19): warning:  #1295-D: Deprecated declaration IIC_Stop - give arg types
+  void IIC_Stop();    //模拟IIC停止信号
+..\HARDWARE\OLED\oled.h(20): warning:  #1295-D: Deprecated declaration IIC_Wait_Ack - give arg types
+  void IIC_Wait_Ack();//模拟IIC读取从机应答信号
+main.c(62): warning:  #1-D: last line of file ends without a newline
+        
+main.c: 4 warnings, 0 errors
+compiling stm32f10x_it.c...
+compiling system_stm32f10x.c...
+compiling oled.c...
+..\HARDWARE\OLED\oled.h(18): warning:  #1295-D: Deprecated declaration IIC_Start - give arg types
+  void IIC_Start();   //模拟IIC起始信号
+..\HARDWARE\OLED\oled.h(19): warning:  #1295-D: Deprecated declaration IIC_Stop - give arg types
+  void IIC_Stop();    //模拟IIC停止信号
+..\HARDWARE\OLED\oled.h(20): warning:  #1295-D: Deprecated declaration IIC_Wait_Ack - give arg types
+  void IIC_Wait_Ack();//模拟IIC读取从机应答信号
+..\HARDWARE\OLED\oled.c: 3 warnings, 0 errors
+compiling DHT11.c...
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling SysTick.c...
+compiling core_cm3.c...
+assembling startup_stm32f10x_hd.s...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+linking...
+Program Size: Code=6700 RO-data=2408 RW-data=916 ZI-data=1844  
+FromELF: creating hex file...
+"..\OBJ\OLED.axf" - 0 Error(s), 7 Warning(s).
+</pre>
+</body>
+</html>
